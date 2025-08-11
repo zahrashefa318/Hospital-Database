@@ -7,8 +7,8 @@ A standalone Python application for managing hospital data with a Tkinter-based 
 ## Features
 
 - **Object-Oriented Programming (OOP):** Utilizes classes to encapsulate functionality:
-  - `TableCreator`: Builds and manages table-like views in Tkinter.
-  - `ScrollbarCreator`: Generates scrollbars for navigating data-rich interfaces.
+  - `TableMaker`: Builds and manages table-like views in Tkinter.
+  - `ScrollbarMaker`: Generates scrollbars for navigating data-rich interfaces.
 - **Persistent Storage:** Reads and writes patient data to `.txt` files for simple, lightweight persistence.
 - **Auto-updating Interface:** Table views refresh automatically when users add new patient data.
 
@@ -64,6 +64,6 @@ A standalone Python application for managing hospital data with a Tkinter-based 
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/Hospital-Database.git
+git clone https://github.com/zahrashefa318/Hospital-Database.git
 cd Hospital-Database
 python Hospital.py
